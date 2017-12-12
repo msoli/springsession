@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  thymeleaf:
+    cache: false
+server:
+  session:
+    timeout: 60
+    cookie:
+      max-age: 60
+
+
